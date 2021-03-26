@@ -49,7 +49,7 @@ Data associated with houses sold in King County, Washington between September 9,
 ## Remove Fields
 * Remove features not associated with the physical features of the home: 'id', 'date', 'view', 'sqft_living15', and 'sqft_lot15'
 * Remove features which cannot be improved through construction: 'waterfront', 'sqft_basement', 'zipcode', 'lat', and 'long'
-* Remove redundent features: 'sqft_above', in context, is the same as 'sqft_living'
+* Remove redundant features: 'sqft_above', in context, is the same as 'sqft_living'
 
 ## Define and Drop Outliers
 * Bedrooms > 6 (0.28% of total data)
