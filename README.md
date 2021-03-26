@@ -50,7 +50,17 @@ Data associated with houses sold in King County, Washington between September 9,
 * Remove features not associated with the physical features of the home: 'id', 'date', 'view', 'sqft_living15', and 'sqft_lot15'
 * Remove features which cannot be improved through construction: 'waterfront', 'sqft_basement', 'zipcode', 'lat', and 'long'
 * Remove redundant features: 'sqft_above', in context, is the same as 'sqft_living'
+***
+### Example
+### Bathrooms Scatterplot
+![bathrooms1](https://github.com/wswager/evergreen_housing/blob/main/images/bathrooms1.png)
 
+### Bathrooms Joint Plot
+![bathrooms2](https://github.com/wswager/evergreen_housing/blob/main/images/bathrooms2.png)
+
+### Bathrooms QQplot
+![bathrooms3](https://github.com/wswager/evergreen_housing/blob/main/images/bathrooms3.png)
+***
 ## Define and Drop Outliers
 * Bedrooms > 6 (0.28% of total data)
 * Bathrooms > 4.5 (0.35% of total data)
