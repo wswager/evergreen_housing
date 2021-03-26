@@ -60,6 +60,7 @@ Data associated with houses sold in King County, Washington between September 9,
 ## Remove Additional Fields
 * Remove additional columns based on p-values: Condition, Grade, and Year Built
 * Remove additional columns based on multicollinearity: Floors
+## Define and Drop Additional Outliers
 * Define and drop additional outliers based on QQplot, homoscedasticity, and five-point statistics
 ***
 # Final Model
@@ -75,6 +76,6 @@ In analyzing the data from the houses sold in King County, Washington between Se
 * Number of Bathrooms
 * Number of Bedrooms
 
-The recommendation would be, if a house being flipped is being considered for signification additions via construction, that increasing these features.
+The recommendation would be, if a house being flipped is being considered for significant additions via construction, that increasing these features.
 
 Surprisingly, it was found that while the grade from King County grading system showed some significance in its relationship with price, that was only the case of higher graded homes, and lower grades showed a less significant relationship.  Also, the condition of the home did not show a significant relationship with the price.
