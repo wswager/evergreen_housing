@@ -62,6 +62,9 @@ Data associated with houses sold in King County, Washington between September 9,
 * Remove additional columns based on multicollinearity: Floors
 * Define and drop additional outliers based on QQplot, homoscedasticity, and five-point statistics
 ***
+# Final Model
+![model4.png](https://github.com/wswager/evergreen_housing/blob/main/images/model4.png)
+***
 # Conclusions
 
 Evergreen Housing requested input regarding features which require construction (beyond basic repairs and/or cosmetic renovations) will increase the value of homes, as well as a model predicting pricing.
