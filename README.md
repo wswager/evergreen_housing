@@ -79,3 +79,10 @@ In analyzing the data from the houses sold in King County, Washington between Se
 The recommendation would be, if a house being flipped is being considered for significant additions via construction, that increasing these features.
 
 Surprisingly, it was found that while the grade from King County grading system showed some significance in its relationship with price, that was only the case of higher graded homes, and lower grades showed a less significant relationship.  Also, the condition of the home did not show a significant relationship with the price.
+***
+### Wes Swager
+[Email] (mail.westin.swager@lsventures.com)
+
+[GitHub](https://github.com/wswager)
+
+[LinkedIn](linkedin.com/in/wes-swager-36a84a2a)
