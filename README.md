@@ -82,7 +82,11 @@ Homes priced higher than $1,000,000.00 - 3.24% of total data
 
 ***
 # Final Model
+The model indicated an average difference between predictions and actual pricing of $144,369.00.
 
+A Root Mean Squared Error of 144369.39 and R-Squared of 0.47 indicates that while the model does have some predictive ability, there is room for improvement.
+
+![pine_tree.jpg](https://github.com/wswager/evergreen_housing/blob/main/images/model.png)
 ***
 # Conclusions
 
