@@ -34,6 +34,16 @@ Data associated with houses sold in King County, Washington between September 9,
 * Redundant features
 ***
 ### Example Field Exploration
+
+### Bathrooms Statistics
+**Mean**: 3.37
+**Standard Deviation**: 0.92
+**Minimum Value**: 1.00
+**Lower Quartile**: 3.00
+**Median**: 3.00
+**Upper Quartile**: 4.00
+**Maximum Value**: 33.00
+
 ### Bathrooms Scatterplot
 ![bathrooms1](https://github.com/wswager/evergreen_housing/blob/main/images/ex_bathrooms1.png)
 
