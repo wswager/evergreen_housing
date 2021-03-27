@@ -1,9 +1,11 @@
 # Evergreen Housing
 ![pine_tree.jpg](https://github.com/wswager/evergreen_housing/blob/main/images/pine_tree.jpg)
-
+***
 # Overview
 
 Analyze data associated with houses sold in King County, Washington between September 9, 2014 and January, 10, 2015 and predict pricing using regression modeling.
+***
+![King County]()
 ***
 # Business Problem
 
@@ -21,35 +23,20 @@ In order to better assess whether additions which require construction are worth
 ## King County House Sales Data
 
 Data associated with houses sold in King County, Washington between September 9, 2014 and January, 10, 2015.
-
-### Fields
-* **id** - Unique identification number for each house
-* **dateDate** - Date sold
-* **pricePrice** -  Price sold for
-* **bedroomsNumber** -  Number of bedrooms
-* **bathroomsNumber** -  Number of bathrooms
-* **sqft_livingsquare** -  Square footage of house
-* **sqft_lotsquare** -  Square footage of lot
-* **floorsTotal** -  Number of floors
-* **waterfront** - If house has a view to a waterfront
-* **view** - If house was viewed
-* **condition** - Rating of overall house condition, one-through-five
-* **grade** - Grade from King County grading system, one-through-thirteen
-* **sqft_above** - Square of house above groun-level, not including basement
-* **sqft_basement** - Square footage of basement
-* **yr_built** - Year built
-* **yr_renovated** - Most recent year renovated
-* **zipcode** - Zipcode
-* **lat** - Latitude coordinate
-* **long** - Longitude coordinate
-* **sqft_living15** - Average square footage of house for nearest fifteen neighbors
-* **sqft_lot15** - Average square footage of lot for nearest fifteen neighbors
 ***
 # Data Cleaning
+
 ## Remove Fields
-* Remove features not associated with the physical features of the home: 'id', 'date', 'view', 'sqft_living15', and 'sqft_lot15'
-* Remove features which cannot be improved through construction: 'waterfront', 'sqft_basement', 'zipcode', 'lat', and 'long'
-* Remove redundant features: 'sqft_above', in context, is the same as 'sqft_living'
+* Features not associated with the physical features of the home
+** Examples: Date House Sold, If the House was Viewed Prior to Sale, Average Square Footage of the Surrounding Homes
+* Features which cannot be improved through construction
+** Examples: If the House is on the Waterfront, Basement Square Footage, Zipcode
+* Redundant features
+
+Define and Drop Outliers
+* Homes with more than six bedrooms - 0.28% of total data
+* Homes with more than four and one half bathrooms - 0.35% of total data
+* Homes with square footages greater than 4,000 - 3.21% of total data
 ***
 ### Example
 ### Bathrooms Scatterplot
