@@ -28,20 +28,30 @@ Data associated with houses sold in King County, Washington between September 9,
 
 ## Remove Fields
 * Features not associated with the physical features of the home
-- Examples: Date House Sold, If the House was Viewed Prior to Sale, Average Square Footage of the Surrounding Homes
+
+Examples: Date House Sold, If the House was Viewed Prior to Sale, Average Square Footage of the Surrounding Homes
+
 * Features which cannot be improved through construction
-- Examples: If the House is on the Waterfront, Basement Square Footage, Zipcode
+
+Examples: If the House is on the Waterfront, Basement Square Footage, Zipcode
+
 * Redundant features
 ***
 ### Example Field Exploration
 
 ### Bathrooms Statistics
 **Mean**: 3.37
+
 **Standard Deviation**: 0.92
+
 **Minimum Value**: 1.00
+
 **Lower Quartile**: 3.00
+
 **Median**: 3.00
+
 **Upper Quartile**: 4.00
+
 **Maximum Value**: 33.00
 
 ### Bathrooms Scatterplot
@@ -58,12 +68,18 @@ Data associated with houses sold in King County, Washington between September 9,
 # Fit to Model and Refine Data
 ## Remove Additional Fields
 * Remove additional columns based on lack of statistical significance (P-vlaue)
-- Example: Grade, Condition
+
+Example: Grade, Condition
+
 * Remove additional columns based on excessive correlation (multicollinearity)
-- Floors
+
+Floors
+
 ## Define and Drop Additional Outliers
 * Define and drop additional outliers identified after modeling disrupting the model accuracy
-- Homes priced higher than $1,000,000.00 - 3.24% of total data
+
+Homes priced higher than $1,000,000.00 - 3.24% of total data
+
 ***
 # Final Model
 
@@ -73,6 +89,7 @@ Data associated with houses sold in King County, Washington between September 9,
 Evergreen Housing requested input regarding features which require construction (beyond basic repairs and/or cosmetic renovations) will increase the value of homes, as well as a model predicting pricing.
 
 In analyzing the data from the houses sold in King County, Washington between September 9, 2014 and January, 10, 2015, the following features show a statistically significant relationship with increasing price of the home (in order of significance):
+
 * Square Footage of the Home
 * Number of Bathrooms
 * Number of Bedrooms
