@@ -91,8 +91,6 @@ A Root Mean Squared Error of 144369.39 and R-Squared of 0.47 indicates that whil
 
 ![pine_tree.jpg](https://github.com/wswager/evergreen_housing/blob/main/images/model.png)
 ***
-![pine_tree.jpg](https://github.com/wswager/evergreen_housing/blob/main/images/pine_tree.jpg)
-***
 # Conclusions
 
 Evergreen Housing requested input regarding features which require construction (beyond basic repairs and/or cosmetic renovations) will increase the value of homes, as well as a model predicting pricing.
