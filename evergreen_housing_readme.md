@@ -91,6 +91,8 @@ A Root Mean Squared Error of 144369.39 and R-Squared of 0.47 indicates that whil
 
 ![pine_tree.jpg](https://github.com/wswager/evergreen_housing/blob/main/images/model.png)
 ***
+![pine_tree.jpg](https://github.com/wswager/evergreen_housing/blob/main/images/pine_tree.jpg)
+***
 # Conclusions
 
 Evergreen Housing requested input regarding features which require construction (beyond basic repairs and/or cosmetic renovations) will increase the value of homes, as well as a model predicting pricing.
@@ -100,7 +102,9 @@ In analyzing the data from the houses sold in King County, Washington between Se
 * Square Footage of the Home
 * Number of Bathrooms
 * Number of Bedrooms
-
+***
+![King County](https://github.com/wswager/evergreen_housing/blob/main/images/king_county.jpg)
+***
 ## Additional Comments
 
 ### Grade
@@ -113,6 +117,8 @@ However, more investigation is required before conclusions can be made.
 The condition feature did not show significance.
 While this feature would seem to be similar to the King County grading system, the differing metrics must cause it to have less of a relationship toward price.
 This would indicate that in making renovations for a home, the metrics associated with the King County grading system should be prioritized over the metrics for Condition.
+***
+![pine_tree.jpg](https://github.com/wswager/evergreen_housing/blob/main/images/pine_tree.jpg)
 ***
 # Thank You
 
