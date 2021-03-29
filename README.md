@@ -66,19 +66,21 @@ Examples: If the House is on the Waterfront, Basement Square Footage, Zipcode
 * Homes with square footages greater than 4,000 - 3.21% of total data
 ***
 # Fit to Model and Refine Data
-## Remove Additional Fields
-* Remove additional columns based on lack of statistical significance (P-vlaue)
+## Explore Removal of Additional Fields
+* Columns based on lack of statistical significance (P-vlaue): Grade, Condition
 
-Example: Grade, Condition
+Conclusion: Changes discarded due to R-squared and Root Mean Squared Error decreasing, indicating a worsening of fit.
 
-* Remove additional columns based on excessive correlation (multicollinearity)
+* Columns based on excessive correlation (multicollinearity): Floors
 
-Floors
+Conclusion: Changes discarded due to R-squared and Root Mean Squared Error decreasing, indicating a worsening of fit.
 
 ## Define and Drop Additional Outliers
 * Define and drop additional outliers identified after modeling disrupting the model accuracy
 
 Homes priced higher than $1,000,000.00 - 3.24% of total data
+
+Conclusion: R-squared decreased 
 
 ***
 # Final Model
