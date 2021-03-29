@@ -65,22 +65,23 @@ Examples: If the House is on the Waterfront, Basement Square Footage, Zipcode
 * Homes with more than four and one half bathrooms - 0.35% of total data
 * Homes with square footages greater than 4,000 - 3.21% of total data
 ***
-# Fit to Model and Refine Data
-## Explore Removal of Additional Fields
-* Columns based on lack of statistical significance (P-vlaue): Grade, Condition
+# Modeling
 
-Conclusion: Changes discarded due to R-squared and Root Mean Squared Error decreasing, indicating a worsening of fit.
+## Individual Features
+Fit Each feature individually v price to a linear regression model to assess fit.
+  Conclusion: Drop Year the House was Built due to an R-Squared value of 0.00 and a P-value of 0.10, indicating a poor fit.
 
-* Columns based on excessive correlation (multicollinearity): Floors
+## Fit to Multiple Linear Regression Model, Analyze Fit Metrics, Refine Data, and Remodel to Assess Change
+### Explore Removal of Additional Fields
+Columns based on lack of statistical significance (P-vlaue): Grade, Condition
+  Conclusion: Changes discarded due to R-squared and Root Mean Squared Error decreasing, indicating a worsening of fit.
 
-Conclusion: Changes discarded due to R-squared and Root Mean Squared Error decreasing, indicating a worsening of fit.
+Columns based on excessive correlation (multicollinearity): Floors
+  Conclusion: Changes discarded due to R-squared and Root Mean Squared Error decreasing, indicating a worsening of fit.
 
-## Define and Drop Additional Outliers
-* Define and drop additional outliers identified after modeling disrupting the model accuracy
-
-Homes priced higher than $1,000,000.00 - 3.24% of total data
-
-Conclusion: R-squared decreased 
+### Define and Drop Additional Outliers
+Define and drop additional outlier: Homes priced higher than $1,000,000.00 - 3.24% of total data
+  Conclusion: R-squared decreased 
 
 ***
 # Final Model
